@@ -18,7 +18,8 @@ recommender = Recommender()
 initial_picks = recommender.get_descs_for_recommended(recommender.recommended_ids)
 
 with gr.Blocks(css=css) as demo:
-
+    gr.Markdown("# **Full report and code can be found here: [GitHub](https://github.com/SSBakh07/Statistical-ML---Spring-2023)**")
+    gr.Markdown("## Basic Movie Recommender")
     with gr.Row(variant='compact', elem_classes="gradio-row", equal_height=True):
 
       # First Component
